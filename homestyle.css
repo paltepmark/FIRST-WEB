@@ -70,6 +70,27 @@ nav {
     display: block;
 }
 
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu-list li {
+    margin: 10px 0;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-list a:hover {
+    color: #45a049;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
